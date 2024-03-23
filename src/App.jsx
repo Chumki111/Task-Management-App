@@ -5,9 +5,11 @@ function App() {
   
 
   return (
-    <div className=' bg-gradient-to-r from-[#f4dbf9] to-[#dddcfe]'>
+    <div className='h-screen bg-gradient-to-r from-[#f4dbf9] to-[#dddcfe]'>
      {/* head */}
+     <div className='px-16 py-16'>
      <Navbar/>
+     </div>
     </div>
   )
 }
